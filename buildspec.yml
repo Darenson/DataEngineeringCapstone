@@ -14,3 +14,9 @@ phases:
   build:
     commands:
       - make deploy
+      
+eb_codebuild_settings:
+  CodeBuildServiceRole: arn:aws:iam::473470422320:role/codebuild_admin
+  ComputeType: BUILD_GENERAL1_SMALL
+  Image: aws/codebuild/amazonlinux2-x86_64-standard:3.0
+  Timeout: 60
