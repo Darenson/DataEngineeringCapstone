@@ -1,4 +1,4 @@
-Flask==1.0
+flask
 requests==2.22.0
 pytest
 pylint
