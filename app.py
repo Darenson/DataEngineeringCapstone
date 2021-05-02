@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def main():
-    url = "http://api.coinlayer.com/live?access_key=417e61351896b495f435a305764debae&symbols=ETH,BTC,LTC,DOGE,BCH&target=USD"
+    url = "http://api.coinlayer.com/live?access_key=0b57ed3868a996b0a8cbb0a8c55237e8&target=USD"
     response = requests.get(url)
     response_json = response.json()
     rates = response_json['rates']
