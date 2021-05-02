@@ -2,7 +2,7 @@
     "AWSEBDockerrunVersion": "1",
     "Logging": "/var/log/nginx",
     "Image": {
-      "Name": "darenson/cryptocurrency",
+      "Name": "darenson/crypto",
       "Update": "true"
     },
     "Ports": [
