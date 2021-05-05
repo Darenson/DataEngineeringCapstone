@@ -10,6 +10,6 @@ lint:
 
 deploy:
 	echo "Deploying app"
-	eb deploy
+	eb deploy Test-env
 
 all: install lint test 
