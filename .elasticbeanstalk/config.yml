@@ -1,6 +1,6 @@
 branch-defaults:
   main:
-    environment: null
+    environment: Cryptoflaskapp-env
 global:
   application_name: DataEngineeringCapstone
   branch: null
