@@ -10,6 +10,6 @@ lint:
 
 deploy:
 	echo "Deploying app"
-	eb deploy cryptoapp-continuous-delivery-env
+	eb deploy
 
 all: install lint test 
