@@ -1,8 +1,8 @@
 branch-defaults:
   main:
-    environment: Test-env
+    environment: Cryptoapp-env
 global:
-  application_name: test
+  application_name: cryptoapp
   branch: null
   default_ec2_keyname: sshtest
   default_platform: Python 3.8 running on 64bit Amazon Linux 2
