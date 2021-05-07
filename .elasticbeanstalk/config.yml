@@ -1,10 +1,11 @@
 branch-defaults:
   main:
-    environment: Cryptoapp-env
+    environment: null
+    group_suffix: null
 global:
-  application_name: cryptoapp
+  application_name: DataEngineeringCapstone
   branch: null
-  default_ec2_keyname: sshtest
+  default_ec2_keyname: aws-eb
   default_platform: Python 3.8 running on 64bit Amazon Linux 2
   default_region: us-east-1
   include_git_submodules: true
