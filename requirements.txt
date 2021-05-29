@@ -1,4 +1,9 @@
+python-binance
+#TA-Lib
+numpy
+backtrader
 flask
+Flask-Cors
 requests==2.22.0
 pytest
 pylint
